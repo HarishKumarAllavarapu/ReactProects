@@ -1,0 +1,31 @@
+.task {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: left;
+    justify-content: space-between;
+}
+.task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+    }
+    
+.button-component {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.removetaskButton{
+    background-color: red;
+    text-decoration: none;
+    width: 10px;
+    border-radius: 1px solid black;
+}
